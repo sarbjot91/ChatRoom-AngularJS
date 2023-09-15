@@ -10,10 +10,16 @@ app.get('/', function (req, res) {
     res.sendfile('index.html');
 });
 
-var CheckNotusedVariable1;
-var CheckNotusedVariable2;
-var CheckNotusedVariable3;
 
+var CheckNotusedVariable1 = "This is a stic code 1";
+var CheckNotusedVariable2  = "This is a stic code 1";
+var CheckNotusedVariable3  = "This is a stic code 1";
+
+if(true){
+    console.log("Is true");
+}else{
+    console.log("Is else");
+}
 var connectedSockets={};
 var allUsers=[{nickname:"",color:"#000"}];//初始值即包含"群聊",用""表示nickname
 io.on('connection',function(socket){
