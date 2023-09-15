@@ -21,7 +21,6 @@ if(true){
     console.log("Is else");
 }
 var connectedSockets={};
-var allUsers=[{nickname:"",color:"#000"}];//初始值即包含"群聊",用""表示nickname
 io.on('connection',function(socket){
 
 
