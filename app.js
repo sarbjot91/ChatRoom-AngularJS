@@ -15,11 +15,11 @@ var CheckNotusedVariable1 = "This is a stic code 1";
 var CheckNotusedVariable2  = "This is a stic code 1";
 var CheckNotusedVariable3  = "This is a stic code 1";
 
-if(true){
-    console.log("Is true");
-}else{
+ if(true){
+     console.log("Is true");
+ }else if(true){
     console.log("Is else");
-}
+ }
 var connectedSockets={};
 io.on('connection',function(socket){
 
